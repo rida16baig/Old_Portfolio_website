@@ -1,0 +1,162 @@
+@media only screen and (max-width: 1455px) {
+  .header-text-container {
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(100% - 15rem);
+  }
+  input {
+    padding: 20px 10px;
+    width: 95%;
+    margin: 10px;
+    font-size: 18px;
+  }
+  textarea {
+    padding: 20px 10px;
+    width: 95%;
+    margin: 10px;
+    font-size: 18px;
+  }
+  a.send_mail {
+    display: block;
+    max-width: min-content;
+  }
+  .logo img {
+    width: 65px;
+    height: 65px;
+  }
+  .row {
+    margin: 0 auto;
+    max-width: 90vw;
+  }
+  .developer,
+  .name {
+    font-size: 65px;
+  }
+  .profile_text {
+    width: 80vw;
+  }
+  .work {
+    margin-top: 50px;
+  }
+  .profile-img {
+    height: 400px;
+  }
+  .profile_text p {
+    font-size: 21px;
+  }
+  .link {
+    margin: 10px;
+  }
+  .links {
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    justify-content: center;
+  }
+  .about {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .g-img {
+    position: absolute;
+    display: none;
+  }
+}
+@media only screen and (max-width: 900px) {
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .bk_project {
+    width: 65%;
+  }
+  .project {
+    width: 100%;
+    display: flex;
+    width: 60vw;
+    /* justify-content: center; */
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 750px) {
+  nav {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    height: 8rem;
+  }
+  body {
+    background-color: var(--blue);
+  }
+
+  .nav_links {
+    display: none;
+  }
+
+  .nav_links.active {
+    display: flex;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .menu-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    right: 20px;
+    top: 30px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .line1,
+  .line2 {
+    font-size: 30px;
+  }
+
+  .developer {
+    font-size: 45px;
+  }
+  .name {
+    font-size: 50px;
+  }
+  .logo img {
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+  }
+}
+@media only screen and (max-width: 525px) {
+  .logo > img {
+    display: block;
+  }
+  .profile_text {
+    font-size: 16px;
+  }
+  .bk_project {
+    width: 75%;
+  }
+  .logo img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+  }
+}

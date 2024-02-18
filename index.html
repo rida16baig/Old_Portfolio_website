@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script>
+      function sendEmail() {
+        var name = document.getElementById("name").value;
+        var subject = document.getElementById("subject").value;
+        var message = document.getElementById("message").value;
+
+        var emailLink =
+          "mailto:16ridabaig@gmail.com" +
+          "?subject=" +
+          encodeURIComponent(subject) +
+          "&body=" +
+          encodeURIComponent("Name: " + name + "\n\nMessage: " + message);
+
+        window.location.href = emailLink;
+      }
+    </script>
+    <title>Rida Fatima | A Web Developer based in Lahore, Pakistan</title>
+  </head>
+
+  <body>
+    <!-- main section starts here -->
+
+    <header id="home">
+      <nav>
+        <div class="logo">
+          <img src="/images/logo.png" alt="logo" class="img" />
+        </div>
+        <span class="menu-toggle" id="menuToggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </span>
+        <div class="nav_links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#work" class="">Work</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+      <div
+        class="row animate__fadeInUp animate__animated header-text-container"
+      >
+        <div class="intro">
+          <p class="line1">I'm</p>
+          <h1 class="name">RIDA FATIMA</h1>
+          <p class="line2">a full stack</p>
+          <h1 class="developer">WEB DEVELOPER</h1>
+        </div>
+        <div>
+          <img
+            src="https://png.pngtree.com/png-vector/20220608/ourmid/pngtree-woman-coding-in-different-programming-languages-png-image_4915580.png"
+            alt="img"
+            class="g-img"
+            height="300px"
+            class="pulse-animation"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- contact links -->
+
+    <!-- main section starts here -->
+
+    <main class="main">
+      <!-- about portion -->
+      <div class="abouts">
+        <div class="about row" id="about">
+          <div>
+            <img
+              src="/images/profile-img.png"
+              class="profile-img"
+              alt="profile-img"
+            />
+          </div>
+          <div class="profile_text">
+            <p class="account-info">
+              About Me!______________________________
+              <br />
+              <br />
+
+              My name is Rida Fatima, and I'm a web developer. I have a deep
+              passion for coding , and programming.
+              "As a passionate web developer, I enjoy creating and exploring the
+              endless possibilities of the digital world. You're welcome to
+              explore
+              <a
+                style="color: white; text-decoration: none"
+                href="https://github.com/rida16baig"
+                >my GitHub account</a
+              >, where I share my web development journey and insights. If you
+              have something to say or need any kind of help, please feel free
+              to
+              <a style="color: white; text-decoration: none" href="#contact"
+                >reach out</a
+              >
+              . I'll do my best to respond and assist you on your own exciting
+              journey!"
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Work portion -->
+      <div class="work row" id="work">
+        <h1 class="bk_main_heading">Noteworthy Frontend Projects</h1>
+        <div class="bk_main_para">
+          <a href="https://github.com/rida16baig?tab=repositories"
+            >View Code on GitHub</a
+          >
+        </div>
+        <div class="projects">
+          <div class="project quiz_game">
+            <p class="heading">1. Quiz Game</p>
+            <div class="pic">
+              <a
+                href="https://quiz.ridabaig.com/"
+                target="_blank"
+                ><img
+                  src="/images/quiz_game.JPG"
+                  alt="Quiz_Game"
+                  class="image"
+                  height="230px"
+                  width="320px"
+              /></a>
+            </div>
+          </div>
+          <div class="project newsApp">
+            <p class="heading">2. News App</p>
+            <div class="pic">
+              <a
+                href="https://github.com/rida16baig/NewsApp_React_JS"
+                target="_blank"
+                ><img
+                  src="/images/newsApp.JPG"
+                  alt="newsApp"
+                  class="image"
+                  height="230px"
+                  width="320px"
+              /></a>
+            </div>
+          </div>
+          <div class="project TextUtils">
+            <p class="heading">3. TextUtils Application</p>
+            <div class="pic">
+              <a
+                href="https://textutils.ridabaig.com/"
+                target="_blank"
+                ><img
+                  src="/images/textUtils.JPG"
+                  alt="TextUtils"
+                  class="image"
+                  height="230px"
+                  width="320px"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="backend">
+        <div class="bk_main_text row">
+          <h1 class="bk_main_heading">Noteworthy Backend Projects</h1>
+          <p class="bk_main_para">
+            <a
+              href="https://github.com/rida16baig?tab=repositories"
+              target="_blank"
+              >View Code on GitHub</a
+            >
+          </p>
+        </div>
+        <div class="backend_projects row">
+          <div class="bk_project LMS">
+            <div class="bk_text">
+              <div class="bk_heading">
+                <a
+                  href="https://github.com/rida16baig/learners_Learning-Management-System-LMS"
+                  target="_blank"
+                  >learners - LMS</a
+                >
+              </div>
+              <div class="bk_desc">
+                Crafted a LMS in Laravel with MySQL
+                integration, offering students  exploration of their
+                preferred courses.
+              </div>
+              <div class="bk_lang">
+                <div class="lang">PHP</div>
+                <div class="lang">Laravel</div>
+                <div class="lang">MySQL</div>
+              </div>
+            </div>
+          </div>
+          <div class="bk_project iNOTES">
+            <div class="bk_text">
+              <div class="bk_heading">
+                <a href="https://github.com/rida16baig/theBlog" target="_blank"
+                  >theBlog</a
+                >
+              </div>
+              <div class="bk_desc">
+                Developed theBlog, a Laravel-based application for seamless
+                content management.
+              </div>
+              <div class="bk_lang">
+                <div class="lang">Laravel</div>
+                <div class="lang">Java Script</div>
+                <div class="lang">MySQL</div>
+              </div>
+            </div>
+          </div>
+          <div class="bk_project iPOST">
+            <div class="bk_text">
+              <div class="bk_heading">
+                <a
+                  href="https://github.com/rida16baig/iNotes"
+                  target="_blank"
+                  >iNotes Application</a
+                >
+              </div>
+              <div class="bk_desc">
+                Designed and crafted iNotes, a PHP-based application for
+                optimized notes management.
+              </div>
+              <div class="bk_lang">
+                <div class="lang">Core PHP</div>
+                <div class="lang">Java Script</div>
+                <div class="lang">MySQL</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- contact portion -->
+      <div class="contact row" id="contact">
+        <div class="contact_heading">Reach Out to Me! ____________________</div>
+        <div class="contact_form">
+          <form action="index.php" method="post">
+            <input type="text" id="name" placeholder="Name" width="50%" />
+            <input type="text" id="subject" placeholder="Subject" width="50%" />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <a
+              href="javascript:void(0);"
+              onclick="sendEmail()"
+              id="submit"
+              class="send_mail"
+              >Send</a
+            >
+          </form>
+        </div>
+      </div>
+    </main>
+    <div class="links">
+      <div class="linkedin link">
+        <a href="https://www.linkedin.com/in/rida16baig/"
+          ><img
+            class="link_img"
+            title="Linkedin profile of Rida"
+            src="images/linkedin.png"
+            width="35px"
+            height="35px"
+            alt="Linkedin icon"
+        /></a>
+      </div>
+      <div class="github link">
+        <a href="https://github.com/rida16baig"
+          ><img
+            class="link_img"
+            src="images/icons8-github-48.png"
+            title="GitHub profile of Rida"
+            width="40px"
+            height="40px"
+            alt="Github icon"
+        /></a>
+      </div>
+      <div class="fb link">
+        <a href="https://www.facebook.com/profile.php?id=100094342332762"
+          ><img
+            class="link_img"
+            src="images/fb.png"
+            title="Facebook profile of Rida"
+            width="40px"
+            height="40px"
+            alt="Facebook icon"
+        /></a>
+      </div>
+      <div class="insta link">
+        <a href="https://www.instagram.com/rida16baig/"
+          ><img
+            class="link_img"
+            style="border-radius: 35%"
+            src="images/insta.png"
+            title="Instagram profile of Rida"
+            width="35px"
+            height="35px"
+            alt="Instagram icon"
+        /></a>
+      </div>
+      <div class="mail link">
+        <a href="mailto:16ridabaig@gmail.com"
+          ><img
+            class="link_img"
+            title="mailto Rida"
+            src="images/mail.png"
+            width="33px"
+            height="33px"
+            alt="mail icon"
+        /></a>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
